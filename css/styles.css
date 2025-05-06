@@ -871,11 +871,12 @@ footer-block {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox:checked + .checkbox-custom {
-  background-color: var(--checkbox-bg-checked);
+.checkbox:checked ~ .checkbox-custom {
+  background-color: #404bbf;
   border: none;
-  fill: var(--checkbox-icon-fill-checked);
+  fill: #f4f4fd;
 }
+
 .checkbox-icon {
   pointer-events: none;
 }
