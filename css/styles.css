@@ -876,7 +876,6 @@ footer-block {
   border: none;
   fill: var(--checkbox-icon-fill-checked);
 }
-
 .checkbox-icon {
   pointer-events: none;
 }
