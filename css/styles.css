@@ -841,6 +841,7 @@ footer-block {
   white-space: nowrap;
   border: 0;
 }
+
 .checkbox {
   position: absolute;
   width: 1px;
@@ -884,6 +885,7 @@ footer-block {
   margin-left: 4px;
   text-decoration: underline;
 }
+
 /* ===== SUBMIT BUTTON ===== */
 .submit-btn {
   display: block;
